@@ -1,0 +1,51 @@
+img {
+    width: 10%;
+    height: 100%;
+}
+.clock {
+    display: flex;
+    width: 30%;
+    height: 60vh;
+    margin-left: 20rem;
+    margin-top: 4rem;
+}
+
+.titleClock {
+    position: relative;
+    top: -34rem;
+    left: 10rem;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.descClock {
+    width: 20%;
+    position: relative;
+    top: -34rem;
+    left: 56rem;
+}
+
+h2 {
+    position: relative;
+    top: -30rem;
+}
+.clockMiniDisplay {
+    position: relative;
+    width: 85px;
+    height: 85px;
+    top: -29rem;
+    left: 5rem;
+}
+
+button{
+    position: absolute;
+    border-radius: 8px;
+    color: white;
+    background-color: #36454F;
+    padding: 1rem;
+    font-weight: 700;
+    top: 37rem;
+    left: 53rem;
+    outline: none;
+    border: 0;
+}
